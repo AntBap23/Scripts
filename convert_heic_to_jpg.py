@@ -4,7 +4,7 @@ from PIL import Image
 import pillow_heif
 
 # Folder with your .heic files
-folder = '/Users/bapbap23/Desktop/seller photos/shirts'
+folder = 'path/to/folder/with/.heic files'
 
 # Register HEIF support for Pillow
 pillow_heif.register_heif_opener()
